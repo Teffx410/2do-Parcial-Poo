@@ -3,6 +3,8 @@ package core;
 
 
 public abstract class Wheel {
+
+
     private double radius;
     private String material;
 
@@ -15,4 +17,5 @@ public abstract class Wheel {
         return this.radius;
     }
     
+
 }

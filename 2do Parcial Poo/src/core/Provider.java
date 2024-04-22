@@ -1,10 +1,14 @@
 package core;
 
 public abstract class Provider {
+  private String name;
 
-    public void makeWheel() {
+    public Provider(String name) {
+        this.name = name;
     }
-    public void makeEngine() {
+
+    public String getName() {
+        return name;
     }
 
     public Provider() {
