@@ -15,9 +15,11 @@ public class Car {
             this.wheel = new HyundaiWheel(radius, material);
             this.engine = new HyundaiEngine(weight, cost);
             this.provider = new Hyundai();
-        }
-
-        
+        }     
+               
     }
+    public Wheel getWheel(){
+           return this.wheel;
+       }
 
 }

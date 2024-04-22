@@ -11,6 +11,8 @@ public abstract class Wheel {
         this.material = material;
     }
 
-    
+    public double getRadius(){
+        return this.radius;
+    }
     
 }
