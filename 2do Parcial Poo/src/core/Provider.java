@@ -6,4 +6,8 @@ public abstract class Provider {
     }
     public void makeEngine() {
     }
+
+    public Provider() {
+    }
+    
 }

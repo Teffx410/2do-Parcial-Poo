@@ -3,7 +3,12 @@ package core;
 
 
 public abstract class Engine {
-    private float weight;
-    private float cost;
+    private double weight;
+    private double cost;
+
+    public Engine(double weight, double cost) {
+        this.weight = weight;
+        this.cost = cost;
+    }
     
 }

@@ -13,5 +13,7 @@ public class AssemblyPlant {
         cars = new ArrayList<>();
     }
     
-    
+    public void addCar(Car car){
+        this.cars.add(car);
+    }
 }

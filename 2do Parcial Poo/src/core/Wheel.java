@@ -3,6 +3,14 @@ package core;
 
 
 public abstract class Wheel {
-    private float radius;
+    private double radius;
     private String material;
+
+    public Wheel(double radius, String material) {
+        this.radius = radius;
+        this.material = material;
+    }
+
+    
+    
 }

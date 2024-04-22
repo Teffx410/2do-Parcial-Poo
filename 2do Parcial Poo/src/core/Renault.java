@@ -1,9 +1,17 @@
 
 package core;
 
-public class Renault {
+public class Renault extends Provider {
   public void makeWheel() {
     }
     public void makeEngine() {
     }
+
+    public Renault() {
+    }
+
+    
+
+    
+    
 }
