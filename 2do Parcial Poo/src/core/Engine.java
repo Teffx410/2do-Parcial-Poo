@@ -26,8 +26,7 @@ public abstract class Engine {
         return cost;
     }
 
-    private double weight;
-    private double cost;
+    
 
     public Engine(double weight, double cost) {
         this.weight = weight;
