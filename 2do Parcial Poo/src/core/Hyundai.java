@@ -1,10 +1,12 @@
 
+
 package core;
 
-/**
- *
- * @author sebas
- */
+
 public class Hyundai {
-    
+    public void makeWheel() {
+    }
+    public void makeEngine() {
+    }
 }
+

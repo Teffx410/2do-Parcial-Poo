@@ -1,10 +1,6 @@
 
 package core;
 
-/**
- *
- * @author sebas
- */
-public class RenaultWheel extends Renault {
+public class RenaultWheel extends Wheel{
     
 }

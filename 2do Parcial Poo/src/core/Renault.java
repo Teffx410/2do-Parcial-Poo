@@ -1,10 +1,11 @@
 
 package core;
 
-/**
- *
- * @author sebas
- */
+
 public class Renault {
-  
+
+  public void makeWheel() {
+    }
+    public void makeEngine() {
+    }
 }
