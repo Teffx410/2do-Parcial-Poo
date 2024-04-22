@@ -3,6 +3,7 @@ package core;
 
 
 public abstract class Engine {
+
  private Provider provider;
     private double weight;
     private double cost;
@@ -24,4 +25,14 @@ public abstract class Engine {
     public double getCost() {
         return cost;
     }
+
+    private double weight;
+    private double cost;
+
+    public Engine(double weight, double cost) {
+        this.weight = weight;
+        this.cost = cost;
+    }
+    
+
 }

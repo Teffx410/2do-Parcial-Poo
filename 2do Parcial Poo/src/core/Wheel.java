@@ -3,19 +3,19 @@ package core;
 
 
 public abstract class Wheel {
-private Provider provider;
+
+
     private double radius;
+    private String material;
 
-    public Wheel(Provider provider, double radius) {
-        this.provider = provider;
+    public Wheel(double radius, String material) {
         this.radius = radius;
+        this.material = material;
     }
 
-    public Provider getProvider() {
-        return provider;
+    public double getRadius(){
+        return this.radius;
     }
+    
 
-    public double getRadius() {
-        return radius;
-    }
 }

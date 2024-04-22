@@ -1,5 +1,6 @@
 
 import core.AssemblyPlant;
+import core.Car;
 
 public class Main {
     

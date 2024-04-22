@@ -10,4 +10,8 @@ public abstract class Provider {
     public String getName() {
         return name;
     }
+
+    public Provider() {
+    }
+    
 }
