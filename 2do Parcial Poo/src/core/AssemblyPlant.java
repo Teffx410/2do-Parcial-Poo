@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package core;
 
-/**
- *
- * @author Core I3
- */
+import java.util.ArrayList;
+
+
 public class AssemblyPlant {
+    private int MaxCars;
+    private ArrayList<Car> cars;
+
+    public AssemblyPlant(int MaxCars) {
+        this.MaxCars = MaxCars;
+        cars = new ArrayList<>();
+    }
+    
     
 }

@@ -2,6 +2,6 @@
 package core;
 
 
-public class Wheel {
+public abstract class Wheel {
     
 }
