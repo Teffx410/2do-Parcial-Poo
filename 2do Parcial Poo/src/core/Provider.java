@@ -2,6 +2,6 @@
 package core;
 
 
-public class Provider {
+public abstract class Provider {
     
 }
