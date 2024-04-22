@@ -2,6 +2,7 @@
 package core;
 
 
-public class Wheel {
-    
+public abstract class Wheel {
+    private float radius;
+    private String material;
 }
